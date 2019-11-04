@@ -3,7 +3,7 @@ const fastcsv = require('fast-csv');
 const fs = require('fs');
 async function getCookieJar(){
     try {
-        const cookieJar = await boxrec.login('oldkingthor','K@leidoscope69');
+        const cookieJar = await boxrec.login('***','***');
         return cookieJar;
     } catch (e) {
         console.log("Login error: " + e);
