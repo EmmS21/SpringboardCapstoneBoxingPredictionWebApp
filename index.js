@@ -16,8 +16,7 @@ async function writeData() {
         "sex": "M",
         "status": "a"
     });
-    console.log(boxers.output);
-    // const ws = fs.writeFileSync('C:\\Users\\User\\Documents\\testing.json', JSON.stringify(boxers.output));
+    const ws = fs.writeFileSync('C:\\Users\\User\\Documents\\testing.json', JSON.stringify(boxers.output));
 };
 try {
     writeData();
