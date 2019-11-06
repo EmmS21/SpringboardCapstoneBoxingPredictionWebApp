@@ -11,8 +11,12 @@ async function getCookieJar(){
 };
 async function writeData() {
     const cookieJar = await getCookieJar();
-    var boxers = await boxrec.getPeopleByName(cookieJar,"Deontay","Wilder");
-    console.log(boxers.output);
+    var boxers = await boxrec.getRatings(cookieJar, {
+        "division": "Heavyweight",
+        "sex": "M",
+        "status": "a"
+    });
+    const ws = fs.writeFileSync('C:\\Users\\User\\Documents\\testing.json', JSON.stringify(boxers.output));
 };
 try {
     writeData();
