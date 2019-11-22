@@ -7,77 +7,12 @@ import os
 #read data
 path = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/vizdata.csv'
 path_two = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/topten.csv'
-path_three = ''
+path_three = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/df.csv'
 data = pd.read_csv(path)
-long_data = pd.read_csv(path_two)
+topten = pd.read_csv(path_two)
+df = pd.read_csv(path_three)
 WEIGHT_CLASS = data['division'].unique()
 GENDER = data['sex'].unique()
-#count wins by stance
-df = long_data[long_data['outcome'].str.contains('win',na=False)].groupby(['stance1', 'stance.y','division','sex'])['outcome'].count().reset_index()
-#dataframe of total wins,losses and draws by age range
-wins = long_data[long_data['outcome'].str.contains('win',na=False)].groupby(['age_range', 'opp_age_range','division','sex'])['outcome'].count().reset_index()
-loss = long_data[long_data['outcome'].str.contains('loss',na=False)].groupby(['age_range', 'opp_age_range','division','sex'])['outcome'].count().reset_index()
-draw = long_data[long_data['outcome'].str.contains('draw',na=False)].groupby(['age_range', 'opp_age_range','division','sex'])['outcome'].count().reset_index()
-#other fight outcomes - nan, unknown etc
-outcomes = ['win','draw','loss']
-outcomeslist = '|'.join(outcomes)
-other = long_data[~long_data['outcome'].str.contains(outcomeslist,na=False)].groupby(['age_range', 'opp_age_range','division','sex'])['outcome'].count().reset_index()
-#merge all outcomes
-fight_outcomes = pd.DataFrame()
-fight_outcomes[['age_range','opp_age_range','division','sex','wins']] = wins[['age_range','opp_age_range','division','sex','outcome']]
-fight_outcomes = fight_outcomes.merge(loss, on=['age_range','opp_age_range','division','sex']).rename(columns={'outcome':'loss'}).merge(draw, on=['age_range','opp_age_range','division','sex']).rename(columns={'outcome':'draw'}).merge(other, on=['age_range','opp_age_range','division','sex']).rename(columns={'outcome':'other'})
-#calculate win rates by different age groups
-fight_outcomes['total_fights'] = fight_outcomes[['wins','loss','draw','other']].sum(axis=1)
-fight_outcomes['win_rate']=(fight_outcomes['wins']/fight_outcomes['total_fights'])*100
-#count total fights by stance
-df2 = long_data[['division','outcome']].groupby('division').count().reset_index()
-df2.rename(columns={'outcome':'total'},inplace=True)
-df = df.merge(df2,on='division')
-#calculate wins in percentages
-df['win_rate'] =df['outcome']/df['total'] *100
-#filter out where stance1 is unknown
-df = df[df.stance1 != 'unknown']
-#cleaning data for top boxer table
-firstBoxer = ['firstBoxerWeight'+str(i) for i in range(1,85)]
-secondBoxer = ['secondBoxerWeight'+str(i) for i in range(1,85)]
-opp_rating = ['secondBoxerRating'+str(i) for i in range(1,85)]
-#average weight of boxer
-data['average_weight'] = data[firstBoxer].mean(axis=1)
-#average opponent weight
-data['average_opponent_weight'] = data[secondBoxer].mean(axis=1)
-#extract wins and losses
-def wins(col):
-    return data[col].astype(str).str.extract('win(?P<win>.*?)}')
-def draws(col):
-    return data[col].astype(str).str.extract('draw(?P<draw>.*?)l')
-opp_rank = ['secondBoxerRecord'+str(i) for i in range(1,85)]
-#update columns with wins and losses
-for i in opp_rank:
-    data['opp_wins'+str(i)] = wins(i)
-for i in opp_rank:
-    data['opp_draws'+str(i)] = draws(i)
-opp_drawsd = ['opp_draws'+str(i) for i in opp_rank]
-opp_winsd = ['opp_wins'+str(i) for i in opp_rank]
-#remove quotation marks
-data[opp_drawsd] = data[opp_drawsd].apply(lambda x: x.str.replace('"',''))
-data[opp_winsd] = data[opp_drawsd].apply(lambda x: x.str.replace('"',''))
-#replace all letters with number 0
-data[opp_drawsd] = data[opp_drawsd].replace(regex='([a-zA-Z])', value=0)
-data[opp_winsd] = data[opp_winsd].replace(regex='([a-zA-Z])', value=0)
-#assume win is 10 points and draw is 5 points
-data[opp_winsd] = data[opp_winsd].astype(float)*10
-data[opp_drawsd] = data[opp_drawsd].astype(float)*5
-#new column with total points
-data['opp_points'] = data[opp_winsd].sum(axis=1) + data[opp_drawsd].sum(axis=1)
-#divide points by number of bouts fought
-data['opp_points'] = data['opp_points']/data['bouts_fought']
-#get type of wins from referee column
-ref_outcome = ['referee'+str(i) for i in range(1,85)]
-topten = pd.concat([data,data[ref_outcome].astype(str).stack().str.replace('\[|\"','').str.extract('(\w+\s\w+)').groupby(level=0)[0].apply(pd.Series.value_counts).unstack(fill_value=0)],axis=1)
-topten = topten[['name','w','d','l','location','division','average_weight','average_opponent_weight','opp_points','bouts_fought','win KO','win SD', 'win TKO', 'win UD','sex']]
-topten.rename(columns={'w':'wins','d':'draws','l':'losses','win KO':'win by knockout','win SD':'win by split decision','win TKO':'win by technical knockout','win UD':'win by unanimous decision'},inplace=True)
-topten['total_points'] = ((topten['wins']*10 +(topten['draws']*5) - (topten['losses']*5)))+topten['opp_points']
-topten = topten
 app = dash.Dash()
 colors = {
     'background': '##111111',
@@ -107,7 +42,7 @@ app.layout = html.Div(children=[
     ),
     dcc.Dropdown(
         id='gender',
-        options=[{'label': i, 'value':i} for i in fight_outcomes['sex'].unique()],
+        options=[{'label': i, 'value':i} for i in data['sex'].unique()],
         multi=True
     ),
     dcc.Graph(
