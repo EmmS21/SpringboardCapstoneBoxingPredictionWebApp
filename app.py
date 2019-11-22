@@ -8,9 +8,11 @@ import os
 path = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/vizdata.csv'
 path_two = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/topten.csv'
 path_three = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/df.csv'
+path_four = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/fightoutcomes.csv'
 data = pd.read_csv(path)
 topten = pd.read_csv(path_two)
 df = pd.read_csv(path_three)
+fight_outcomes = pd.read_csv(path_four)_
 WEIGHT_CLASS = data['division'].unique()
 GENDER = data['sex'].unique()
 app = dash.Dash()
@@ -43,7 +45,7 @@ app.layout = html.Div(children=[
     ),
     dcc.Dropdown(
         id='gender',
-        options=[{'label': i, 'value':i} for i in data['sex'].unique()],
+        options=[{'label': i, 'value':i} for i in fight_outcomes['sex'].unique()],
         multi=True
     ),
     dcc.Graph(
