@@ -5,16 +5,13 @@ import plotly.graph_objs as go
 import pandas as pd
 import os
 #read data
-path = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/visuals.csv'
-path_two = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/longformateddata2.csv'
+path = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/vizdata.csv'
+path_two = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/topten.csv'
+path_three = ''
 data = pd.read_csv(path)
+long_data = pd.read_csv(path_two)
 WEIGHT_CLASS = data['division'].unique()
 GENDER = data['sex'].unique()
-data['division'] = data['division'].fillna('unknown')
-data['bouts_fought'] = data['w'].astype('float')+data['l'].astype('float')+data['d'].astype('float')
-
-#uploading data for heatmap
-long_data = pd.read_csv(path_two)
 #count wins by stance
 df = long_data[long_data['outcome'].str.contains('win',na=False)].groupby(['stance1', 'stance.y','division','sex'])['outcome'].count().reset_index()
 #dataframe of total wins,losses and draws by age range
