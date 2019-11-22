@@ -14,6 +14,7 @@ df = pd.read_csv(path_three)
 WEIGHT_CLASS = data['division'].unique()
 GENDER = data['sex'].unique()
 app = dash.Dash()
+server = app.server
 colors = {
     'background': '##111111',
     'text': '#FFFFFF'
@@ -190,4 +191,4 @@ def update_heatmap(weight_class,gender):
         )
     }
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.server.run(debug=True)
