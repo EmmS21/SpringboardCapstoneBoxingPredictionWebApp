@@ -147,6 +147,7 @@ def update_heatmap(weight_class,gender):
         gender = GENDER
     top_boxer = topten[(topten['division'].isin(weight_class))]
     top_boxer = top_boxer[(top_boxer['sex'].isin(gender))]
+    top_boxer = top_boxer.drop(columns ='Unnamed: 0')
     # limit to top 10
     top_boxer = top_boxer.nlargest(10, 'total_points').sort_values(by='total_points', ascending=False)
     return {
