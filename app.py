@@ -176,7 +176,7 @@ def update_heatmap(weight_class,gender):
 
     fights = fight_outcomes[(fight_outcomes['division'].isin(weight_class))]
     fights = fights[(fights['sex'].isin(gender))]
-    order = ['15-20', '20-25', '25-30', '30-35', '35-40', '40-45', '45-50']
+    order = ['15-20', '20-25', '25-30', '30-35', '35-40']
     return {
         'data': [
             go.Heatmap(
@@ -187,7 +187,7 @@ def update_heatmap(weight_class,gender):
         ],
         'layout': go.Layout(
             title='Wins rate by boxer age range',
-            xaxis={'title':'Opposition age range'},
+            xaxis={'title':'Opposition age range','categoryarray': order},
             yaxis={'title': 'Boxer age range'},
             hovermode='closest',
             paper_bgcolor='black',
