@@ -149,7 +149,6 @@ def update_heatmap(weight_class,gender):
     top_boxer = top_boxer[(top_boxer['sex'].isin(gender))]
     top_boxer = top_boxer.drop(columns ='Unnamed: 0')
     #noticed duplicates in my top ten list
-    top_boxer['name'] = top_boxer['name'].unique()
     # limit to top 10
     top_boxer = top_boxer.nlargest(10, 'total_points').sort_values(by='total_points', ascending=False)
     return {
