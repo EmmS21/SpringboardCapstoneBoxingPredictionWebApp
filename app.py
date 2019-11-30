@@ -148,15 +148,17 @@ def update_heatmap(weight_class,gender):
     top_boxer = topten[(topten['division'].isin(weight_class))]
     top_boxer = top_boxer[(top_boxer['sex'].isin(gender))]
     top_boxer = top_boxer.drop(columns ='Unnamed: 0')
-    #noticed duplicates in my top ten list
+    top_boxer = top_boxer.drop_duplicates('name', keep='last')
     # limit to top 10
     top_boxer = top_boxer.nlargest(10, 'total_points').sort_values(by='total_points', ascending=False)
+    top_boxer=top_boxer[['name','wins','draws','losses','location','division','average_weight','average_opponent_weight','bouts_fought','win by knockout','win by split decision','win by technical knockout','win by unanimous decision','sex','total_points']]
     return {
         'data': [
             go.Table(
                 header=dict(values=list(top_boxer.columns),fill_color='paleturquoise',align='left'),
-                cells=dict(values=[top_boxer['name'],top_boxer['wins'],top_boxer['draws'],top_boxer['losses'],top_boxer['location'],top_boxer['division'],top_boxer['average_weight'],top_boxer['average_opponent_weight'],top_boxer['bouts_fought'],top_boxer['win by knockout'],
-                                   top_boxer['win by split decision'],top_boxer['win by technical knockout'],top_boxer['win by unanimous decision'],top_boxer['total_points']],
+                cells=dict(values=[top_boxer['name'],top_boxer['wins'],top_boxer['draws'],top_boxer['losses'],top_boxer['location'],top_boxer['division'],top_boxer['average_weight'],top_boxer['average_opponent_weight'],
+                                   top_boxer['bouts_fought'],top_boxer['win by knockout'],
+                                   top_boxer['win by split decision'],top_boxer['win by technical knockout'],top_boxer['win by unanimous decision'],top_boxer['sex'],top_boxer['total_points']],
                            fill_color ='lavender',align='left'))
         ],
         'layout': go.Layout(
