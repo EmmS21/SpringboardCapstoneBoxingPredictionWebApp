@@ -221,7 +221,7 @@
 219,Destiny Day-Owens,1.0,0.0,0.0,"USA, Maryland, Baltimore",super light,141.75,137.75,0.0,1.0,0.0,1.0,0.0,0.0,female,10.0
 220,Champ Moultire,0.0,0.0,1.0,"USA, Maryland, Ellicott City",unknown,146.75,147.25,0.0,1.0,0.0,0.0,0.0,0.0,male,-25.0
 221,Antonio Dunton-El   Jr,0.0,1.0,0.0,"USA, Maryland, Baltimore",unknown,128.5,128.0,0.0,1.0,0.0,0.0,0.0,0.0,male,5.0
-222,Joe Jones,11.0,0.0,1.0,"USA, Virginia, Leesburg",cruiser,,,0.0,12.0,,,,,male,85.0
+222,Joe Jones,11.0,0.0,1.0,"USA, Virginia, Leesburg",cruiser,187.375,,0.0,12.0,0.0,0.0,0.0,0.0,male,85.0
 223,Calvin Mends,1.0,0.0,0.0,"USA, Virginia, Leesburg",unknown,198.0,198.0,0.0,1.0,0.0,0.0,0.0,0.0,male,10.0
 224,DeJon Corley,0.0,0.0,1.0,"USA, Virginia, Leesburg",light,141.0,140.75,0.0,1.0,0.0,0.0,0.0,0.0,male,-25.0
 225,Mark Duncan,3.0,0.0,2.0,"USA, Maryland, Clarksburg",middle,157.1,158.05,12.0,5.0,0.0,0.0,3.0,0.0,male,-8.0
@@ -541,7 +541,7 @@
 539,Frank Galarza,20.0,2.0,3.0,"USA, New York, Brooklyn",super welter,,,0.0,25.0,,,,,male,135.0
 540,Constantin Bejenaru,14.0,0.0,0.0,"USA, New York, Brooklyn",cruiser,209.83333333333334,219.89285714285714,6.428571428571429,14.0,1.0,0.0,3.0,9.0,male,197.32330827067668
 541,Nikolai Potapov,20.0,1.0,2.0,"USA, New York, Brooklyn",bantam,119.96875,119.83333333333333,14.347826086956522,23.0,3.0,1.0,5.0,8.0,male,216.8049689440994
-542,Mikkel LesPierre,21.0,1.0,1.0,"USA, New York, Brooklyn",super light,,,0.0,23.0,,,,,male,190.0
+542,Mikkel LesPierre,21.0,1.0,1.0,"USA, New York, Brooklyn",super light,142.92391304347825,142.7391304347826,18.26086956521739,23.0,1.0,0.0,9.0,8.0,male,233.38586956521738
 543,Radzhab Butaev,12.0,0.0,0.0,"USA, New York, Brooklyn",welter,,,0.0,12.0,,,,,male,120.0
 544,Gabriel Bracero,25.0,1.0,4.0,"USA, New York, Brooklyn",super light,,,0.0,30.0,,,,,male,155.0
 545,Courtney Pennington,13.0,3.0,4.0,"USA, New York, Brooklyn",super welter,156.23611111111111,156.38888888888889,10.5,20.0,1.0,1.0,4.0,6.0,male,94.75569358178053
@@ -604,7 +604,7 @@
 602,Sean Monaghan,29.0,0.0,3.0,"USA, New York, Long Beach",light heavy,174.8515625,,0.0,32.0,0.0,0.0,0.0,0.0,male,215.0
 603,Vito Mielnicki Jr,2.0,0.0,0.0,"USA, New Jersey, Roseland",welter,146.0,141.875,0.0,2.0,2.0,0.0,0.0,0.0,male,20.0
 604,Anthony Williams,4.0,1.0,9.0,"USA, West Virginia, Whitesville",heavy,,,0.0,14.0,,,,,male,-180.0
-605,Joe Smith Jr,24.0,0.0,3.0,"USA, New York, Long Island",light heavy,,,0.0,27.0,,,,,male,165.0
+605,Joe Smith Jr,24.0,0.0,3.0,"USA, New York, Long Island",light heavy,175.2403846153846,,0.0,27.0,0.0,0.0,0.0,0.0,male,165.0
 606,Lennox Allen,22.0,1.0,0.0,"USA, New York",super middle,164.10294117647058,163.13235294117646,16.956521739130434,23.0,3.0,0.0,10.0,7.0,male,307.40267558528427
 607,Brian Ceballo,11.0,0.0,0.0,"USA, New York, New York",welter,147.20454545454547,147.88636363636363,19.09090909090909,11.0,1.0,0.0,4.0,5.0,male,185.05414438502675
 608,Edgar Berlanga,12.0,0.0,0.0,"USA, New York, New York",middle,161.91666666666666,161.83333333333334,11.25,12.0,4.0,0.0,8.0,0.0,male,131.25
@@ -973,7 +973,7 @@
 971,Theo Desjardin,0.0,0.0,11.0,"USA, Massachusetts, North Attleboro",welter,140.375,139.925,4.090909090909091,11.0,0.0,0.0,0.0,0.0,male,-270.90909090909093
 972,Khiary Gray,16.0,0.0,5.0,"USA, Massachusetts, Worcester",super welter,156.17857142857142,157.14285714285714,14.285714285714286,21.0,6.0,0.0,5.0,3.0,male,55.05042016806723
 973,Jamaine Ortiz,12.0,0.0,0.0,"USA, Massachusetts, Worcester",super light,,,0.0,12.0,,,,,male,120.0
-974,Irvin Gonzalez,12.0,0.0,2.0,"USA, Massachusetts, Worcester",super feather,,,0.0,14.0,,,,,male,70.0
+974,Irvin Gonzalez,12.0,0.0,2.0,"USA, Massachusetts, Worcester",super feather,127.48076923076923,128.73076923076923,4.285714285714286,14.0,2.0,0.0,7.0,3.0,male,74.28571428571429
 975,Nicholas Briggs,5.0,0.0,0.0,"USA, Massachusetts, Worcester",super light,145.0,143.4,9.0,5.0,0.0,0.0,3.0,2.0,male,59.0
 976,Kendrick Ball Jr,13.0,2.0,1.0,"USA, Massachusetts, Worcester",super middle,163.671875,164.0,11.25,16.0,2.0,0.0,7.0,4.0,male,126.25
 977,Andy Gonzales,6.0,0.0,4.0,"USA, Massachusetts, Worcester",super welter,150.575,150.75,19.5,10.0,1.0,0.0,4.0,1.0,male,-20.5
@@ -1253,7 +1253,7 @@
 1251,Michael Sunkett,1.0,0.0,8.0,"USA, Kentucky, Louisville",heavy,,,6.666666666666667,9.0,0.0,0.0,1.0,0.0,male,-183.33333333333334
 1252,Nathan Petty,1.0,1.0,40.0,"USA, Kentucky, Louisville",middle,,,3.9285714285714284,42.0,0.0,1.0,0.0,0.0,male,-981.0714285714286
 1253,Frederick Brown,0.0,0.0,1.0,"USA, Kentucky, Louisville",unknown,,,0.0,1.0,0.0,0.0,0.0,0.0,male,-25.0
-1254,Alexis Hloros,18.0,2.0,8.0,"USA, Michigan, Mount Clemens",middle,,,0.0,28.0,,,,,male,-10.0
+1254,Alexis Hloros,18.0,2.0,8.0,"USA, Michigan, Mount Clemens",middle,159.00862068965517,158.42241379310346,6.428571428571429,28.0,4.0,0.0,8.0,6.0,male,-3.571428571428571
 1255,James Taylor,2.0,0.0,0.0,"USA, Michigan, Romulus",light,,,7.5,2.0,1.0,0.0,0.0,1.0,male,27.5
 1256,Basil Ali Nasser,3.0,0.0,0.0,"USA, Michigan, Dearborn Heights",feather,,,0.0,3.0,0.0,0.0,0.0,3.0,male,30.0
 1257,Raymond Castaneda,6.0,0.0,0.0,"USA, Ohio, Defiance",super light,,,7.5,6.0,2.0,0.0,0.0,4.0,male,67.5
@@ -1442,7 +1442,7 @@
 1440,Jeramine Huber,1.0,0.0,3.0,"USA, Indiana, Whiting",welter,143.9375,142.8125,3.75,4.0,0.0,0.0,1.0,0.0,male,-61.25
 1441,Anthony Concepcion,1.0,0.0,17.0,"USA, Florida, Vero Beach",super welter,143.79166666666666,144.22222222222223,2.5,18.0,0.0,0.0,0.0,1.0,male,-412.5
 1442,Deontay Wilder,41.0,1.0,0.0,"USA, Alabama, Tuscaloosa",heavy,,,0.0,42.0,,,,,male,415.0
-1443,Deon Nicholson,11.0,0.0,0.0,"USA, Alabama, Tuscaloosa",cruiser,,,0.0,11.0,,,,,male,110.0
+1443,Deon Nicholson,11.0,0.0,0.0,"USA, Alabama, Tuscaloosa",cruiser,185.22727272727272,184.61363636363637,15.0,11.0,2.0,0.0,9.0,0.0,male,142.75
 1444,Delvecchio Savage,3.0,1.0,4.0,"USA, Alabama, Tuscaloosa",middle,159.59375,159.15625,0.0,8.0,0.0,0.0,3.0,0.0,male,-44.8
 1445,Ke'Eric Hinton,4.0,0.0,1.0,"USA, Alabama, Tuscaloosa",super middle,164.25,166.75,3.0,5.0,1.0,0.0,1.0,2.0,male,18.0
 1446,Thomas Knox,5.0,1.0,1.0,"USA, Alabama, Tuscaloosa",super middle,158.89285714285714,158.96428571428572,12.857142857142858,7.0,1.0,0.0,2.0,2.0,male,42.85714285714286
@@ -1450,7 +1450,7 @@
 1448,Charles Brown,0.0,0.0,2.0,"USA, Michigan, Muskegon",heavy,278.125,225.75,0.0,2.0,0.0,0.0,0.0,0.0,male,-50.0
 1449,Anthony Stewart,4.0,1.0,1.0,"USA, Alabama, Fayette",cruiser,203.33333333333334,248.83333333333334,7.5,6.0,1.0,0.0,0.0,2.0,male,27.5
 1450,Marsellos Wilder,5.0,0.0,1.0,"USA, Alabama, Northport",cruiser,193.07142857142858,196.57142857142858,12.5,6.0,0.0,0.0,2.0,3.0,male,37.5
-1451,Shawndell Terell Winters,12.0,0.0,2.0,"USA, Illinois, Harvey",heavy,193.32142857142858,200.46428571428572,7.5,14.0,5.0,0.0,6.0,1.0,male,133.8
+1451,Shawndell Terell Winters,12.0,0.0,2.0,"USA, Illinois, Harvey",heavy,194.03333333333333,203.16666666666666,7.5,14.0,5.0,0.0,7.0,1.0,male,133.8
 1452,Alex Martin,14.0,0.0,3.0,"USA, Illinois, Harvey",welter,146.88235294117646,147.23529411764707,12.352941176470589,17.0,1.0,1.0,3.0,7.0,male,79.6977687626775
 1453,Santiago Arroyo,7.0,1.0,1.0,"USA, Florida, Winter Haven",super bantam,118.91666666666667,118.30555555555556,18.333333333333332,9.0,2.0,0.0,1.0,4.0,male,68.33333333333333
 1454,Iron Alvarez,8.0,0.0,0.0,"USA, Florida, Winter Haven",super feather,131.47222222222223,131.86111111111111,1.875,8.0,4.0,0.0,3.0,0.0,male,81.875
@@ -2225,14 +2225,14 @@
 2223,Adrian Pequeno,1.0,0.0,0.0,"USA, Texas, Conroe",super middle,167.5,168.5,0.0,1.0,0.0,0.0,0.0,0.0,male,10.0
 2224,Preston Martin Wilson,0.0,0.0,1.0,"USA, Texas, Humble",cruiser,189.5,176.5,0.0,1.0,0.0,0.0,0.0,0.0,male,-25.0
 2225,Maurice Hooker,26.0,3.0,1.0,"USA, Texas, Dallas",super light,140.78333333333333,,0.0,30.0,0.0,0.0,0.0,0.0,male,250.0
-2226,Rob Brant,25.0,0.0,2.0,"USA, Texas, Dallas",middle,,,0.0,27.0,,,,,male,200.0
+2226,Rob Brant,25.0,0.0,2.0,"USA, Texas, Dallas",middle,159.48076923076923,160.26923076923077,11.11111111111111,27.0,8.0,0.0,9.0,7.0,male,211.11111111111111
 2227,Vergil Ortiz Jr,14.0,0.0,0.0,"USA, Texas, Dallas",welter,140.75,141.21428571428572,10.714285714285714,14.0,7.0,0.0,6.0,0.0,male,202.31428571428572
 2228,Roberto Marroquin,28.0,1.0,5.0,"USA, Texas, Dallas",light,125.6029411764706,125.2279411764706,15.882352941176471,34.0,6.0,1.0,11.0,7.0,male,185.7285067873303
 2229,Oscar Mojica,12.0,1.0,5.0,"USA, Texas, Dallas",bantam,116.36111111111111,116.73529411764706,10.833333333333334,18.0,0.0,4.0,1.0,7.0,male,10.833333333333334
 2230,Ray Ximenez,18.0,0.0,2.0,"USA, Texas, Dallas",feather,,,0.0,20.0,,,,,male,130.0
 2231,Manuel Rey Rojas,18.0,0.0,3.0,"USA, Texas, Dallas",light,132.83333333333334,132.45238095238096,10.0,21.0,0.0,1.0,5.0,10.0,male,128.0
 2232,Alexis del Bosque,16.0,0.0,5.0,"USA, Texas, Dallas",light,134.60714285714286,135.54761904761904,2.142857142857143,21.0,6.0,0.0,3.0,7.0,male,60.142857142857146
-2233,Gregory Corbin,15.0,0.0,2.0,"USA, Texas, Dallas",heavy,,,0.0,17.0,,,,,male,100.0
+2233,Gregory Corbin,15.0,0.0,2.0,"USA, Texas, Dallas",heavy,271.4166666666667,245.66666666666666,16.764705882352942,17.0,1.0,0.0,7.0,6.0,male,116.76470588235294
 2234,Juan Antonio Lopez,15.0,0.0,7.0,"USA, Texas, Dallas",feather,122.0,122.38636363636364,9.545454545454545,22.0,3.0,1.0,3.0,7.0,male,12.731168831168835
 2235,Shurretta Metcalf,8.0,1.0,3.0,"USA, Texas, Dallas",super bantam,119.375,120.22916666666667,2.5,12.0,0.0,1.0,2.0,3.0,female,12.5
 2236,Hector Valdez,11.0,0.0,0.0,"USA, Texas, Dallas",super bantam,123.38636363636364,123.54545454545455,6.818181818181818,11.0,3.0,0.0,4.0,4.0,male,125.1038961038961
@@ -2282,7 +2282,7 @@
 2280,Medzhid Bektemirov,20.0,0.0,1.0,"USA, Texas, Houston",light heavy,180.82142857142858,182.1547619047619,19.285714285714285,21.0,4.0,2.0,10.0,4.0,male,194.28571428571428
 2281,Darwin Price,16.0,0.0,0.0,"USA, Texas, Houston",welter,140.671875,141.78125,15.0,16.0,2.0,0.0,7.0,7.0,male,193.25
 2282,Bakhtiyar Eyubov,14.0,1.0,1.0,"USA, Texas, Houston",welter,148.98529411764707,148.9264705882353,16.875,16.0,2.0,1.0,10.0,1.0,male,136.875
-2283,Jerrico Walton,15.0,0.0,0.0,"USA, Texas, Houston",welter,,,0.0,15.0,,,,,male,150.0
+2283,Jerrico Walton,15.0,0.0,0.0,"USA, Texas, Houston",welter,150.078125,148.53125,15.0,15.0,1.0,0.0,5.0,9.0,male,165.0
 2284,Efetobor Apochi,9.0,0.0,0.0,"USA, Texas, Houston",cruiser,198.75,200.02777777777777,13.333333333333334,9.0,3.0,0.0,6.0,0.0,male,114.56410256410255
 2285,Pablo Cruz,18.0,0.0,2.0,"USA, Texas, Houston",super feather,125.7375,125.7625,5.25,20.0,2.0,0.0,4.0,12.0,male,135.25
 2286,Jonathan Steele,9.0,1.0,6.0,"USA, Texas, Duncanville",welter,146.46875,146.25,6.5625,16.0,1.0,1.0,3.0,1.0,male,-48.4375
@@ -2305,7 +2305,7 @@
 2303,Rodney Moore,20.0,2.0,18.0,"USA, Texas, Houston",heavy,,,0.0,40.0,,,,,male,-240.0
 2304,D'Angelo Keyes,9.0,0.0,1.0,"USA, Texas, Houston",light,138.375,139.2,7.5,10.0,1.0,0.0,4.0,2.0,male,72.5
 2305,Robert Redmond Jr,7.0,2.0,2.0,"USA, Texas, Houston",welter,145.77272727272728,145.5909090909091,8.181818181818182,11.0,0.0,0.0,6.0,0.0,male,38.18181818181818
-2306,Gabriel Smith,9.0,0.0,1.0,"USA, Texas, Houston",light,,,0.0,10.0,,,,,male,65.0
+2306,Gabriel Smith,9.0,0.0,1.0,"USA, Texas, Houston",light,136.54545454545453,136.75,12.0,10.0,3.0,0.0,1.0,5.0,male,77.0
 2307,Andre August,8.0,1.0,1.0,"USA, Texas, Houston",light heavy,,,0.0,10.0,,,,,male,60.0
 2308,Eric Manriquez,7.0,1.0,9.0,"USA, Texas, Houston",super bantam,127.45833333333333,126.66666666666667,4.411764705882353,17.0,0.0,0.0,3.0,3.0,male,-135.83823529411765
 2309,Josue Morales,9.0,4.0,11.0,"USA, Texas, Houston",super fly,118.76086956521739,117.45652173913044,2.5,24.0,0.0,1.0,0.0,7.0,male,-162.5
@@ -2390,8 +2390,8 @@
 2388,Brandon Wright,2.0,0.0,2.0,"USA, Oklahoma, Chickasha",light heavy,172.75,174.5,0.0,4.0,1.0,0.0,1.0,0.0,male,-30.0
 2389,Raphael Igbokwe,13.0,0.0,2.0,"USA, Texas, Fresno",middle,163.86666666666667,164.16666666666666,11.0,15.0,2.0,0.0,4.0,4.0,male,100.75
 2390,Josh Silva,1.0,1.0,0.0,"USA, Texas, North Richland Hills",super light,138.125,138.125,0.0,2.0,0.0,0.0,1.0,0.0,male,15.0
-2391,Efe Ajagba,11.0,0.0,0.0,"USA, Texas, Stafford",heavy,237.22727272727272,248.75,6.818181818181818,11.0,4.0,0.0,4.0,1.0,male,157.3649732620321
-2392,Edwin Rodriguez,31.0,0.0,2.0,"USA, Texas, Stafford",cruiser,170.03787878787878,169.61363636363637,9.090909090909092,33.0,2.0,0.0,16.0,11.0,male,435.8856375479359
+2391,Efe Ajagba,11.0,0.0,0.0,"USA, Texas, Stafford",heavy,237.22727272727272,248.75,8.181818181818182,11.0,4.0,0.0,4.0,1.0,male,176.22860962566847
+2392,Edwin Rodriguez,31.0,0.0,2.0,"USA, Texas, Stafford",cruiser,170.03787878787878,169.61363636363637,9.090909090909092,33.0,2.0,0.0,16.0,11.0,male,436.7566052898714
 2393,Edgar Alarcon,6.0,1.0,1.0,"USA, Texas, Sugar Land",super feather,127.5625,126.8125,5.625,8.0,1.0,0.0,0.0,4.0,male,45.625
 2394,John Vera,19.0,0.0,1.0,"USA, Texas, Fort Worth",super welter,153.2625,153.475,5.25,20.0,1.0,1.0,8.0,5.0,male,206.75
 2395,Santiago Dominguez,19.0,0.0,0.0,"USA, Texas, Fort Worth",welter,,,0.0,19.0,,,,,male,190.0
@@ -2477,7 +2477,7 @@
 2475,Mario Barrios,25.0,0.0,0.0,"USA, Texas, San Antonio",super light,,,0.0,25.0,,,,,male,250.0
 2476,James Kirkland,33.0,0.0,2.0,"USA, Texas, San Antonio",super welter,,,0.0,35.0,,,,,male,280.0
 2477,Joshua Franco,15.0,2.0,1.0,"USA, Texas, San Antonio",bantam,,,0.0,18.0,,,,,male,135.0
-2478,Hector Tanajara,18.0,0.0,0.0,"USA, Texas, San Antonio",light,,,0.0,18.0,,,,,male,180.0
+2478,Hector Tanajara,18.0,0.0,0.0,"USA, Texas, San Antonio",light,132.22222222222223,132.90277777777777,12.5,18.0,4.0,0.0,1.0,11.0,male,269.849593495935
 2479,Adam Lopez,18.0,2.0,3.0,"USA, Texas, San Antonio",super bantam,121.92391304347827,121.34782608695652,11.08695652173913,23.0,5.0,0.0,4.0,8.0,male,153.99409937888197
 2480,Edward Jeramie Ortiz,9.0,2.0,0.0,"USA, Texas, San Antonio",middle,,,0.0,11.0,,,,,male,100.0
 2481,Joseph Rodriguez,15.0,1.0,0.0,"USA, Texas, San Antonio",super light,130.53125,128.65625,11.25,16.0,0.0,1.0,2.0,9.0,male,176.09615384615384
@@ -3011,7 +3011,7 @@
 3009,Jessie Magdaleno,27.0,0.0,1.0,"USA, Nevada, Las Vegas",feather,,,0.0,28.0,,,,,male,245.0
 3010,Angelo Leo,18.0,0.0,0.0,"USA, Nevada, Las Vegas",super bantam,121.34722222222223,121.65277777777777,8.333333333333334,18.0,7.0,0.0,1.0,8.0,male,213.2529761904762
 3011,Ladarius Miller,20.0,0.0,1.0,"USA, Nevada, Las Vegas",light,138.77380952380952,138.85714285714286,8.571428571428571,21.0,1.0,1.0,5.0,12.0,male,231.57142857142858
-3012,Michael Hunter,18.0,0.0,1.0,"USA, Nevada, Las Vegas",heavy,209.18421052631578,225.43421052631578,11.842105263157896,19.0,3.0,0.0,8.0,6.0,male,241.43721093612785
+3012,Michael Hunter,18.0,0.0,1.0,"USA, Nevada, Las Vegas",heavy,209.18421052631578,225.43421052631578,11.842105263157896,19.0,3.0,0.0,8.0,6.0,male,270.7497109361279
 3013,Robert Guerrero,36.0,1.0,6.0,"USA, Nevada, Las Vegas",welter,,,0.0,43.0,,,,,male,215.0
 3014,Zab Judah,44.0,0.0,10.0,"USA, Nevada, Las Vegas",super light,,,0.0,54.0,,,,,male,190.0
 3015,Andrew Tabiti,17.0,0.0,1.0,"USA, Nevada, Las Vegas",cruiser,,,0.0,18.0,,,,,male,145.0
@@ -3069,7 +3069,7 @@
 3067,Czarina McCoy,3.0,0.0,0.0,"USA, Nevada, Las Vegas",super fly,115.1875,114.125,25.0,3.0,0.0,0.0,2.0,1.0,female,55.0
 3068,Christopher Lovejoy,18.0,0.0,0.0,"USA, Nevada, Las Vegas",heavy,287.55555555555554,251.65277777777777,10.0,18.0,5.0,0.0,11.0,0.0,male,190.0
 3069,Crystal Hoy,6.0,4.0,10.0,"USA, Nevada, Las Vegas",super fly,121.38157894736842,121.5657894736842,12.75,20.0,0.0,1.0,3.0,2.0,female,-157.25
-3070,Lorissa Rivas Wallace,9.0,0.0,3.0,"USA, Nevada, Las Vegas",heavy,,,0.0,12.0,,,,,female,15.0
+3070,Lorissa Rivas Wallace,9.0,0.0,3.0,"USA, Nevada, Las Vegas",heavy,163.05,162.9,3.75,12.0,1.0,0.0,7.0,1.0,female,18.75
 3071,Arturo Izquierdo,6.0,0.0,2.0,"USA, Nevada, Las Vegas",welter,152.65625,154.4375,1.875,8.0,0.0,1.0,2.0,2.0,male,11.875
 3072,Cesar Quinonez,5.0,0.0,0.0,"USA, Nevada, Las Vegas",welter,139.95,139.65,6.0,5.0,0.0,0.0,3.0,1.0,male,56.0
 3073,Muhsin Cason,5.0,0.0,0.0,"USA, Nevada, Las Vegas",cruiser,195.2,205.4,0.0,5.0,0.0,0.0,3.0,2.0,male,50.0
@@ -3841,112 +3841,38 @@
 3839,Donald Gonzalez,0.0,0.0,3.0,"USA, Hawaii, Keaau",light,140.5,141.0,15.0,3.0,0.0,0.0,0.0,0.0,male,-60.0
 3840,Kawelo Alcos,2.0,2.0,0.0,"USA, Hawaii, Molokai",light fly,107.625,107.8125,3.75,4.0,0.0,0.0,1.0,0.0,male,33.75
 3841,Logan Yoon,16.0,0.0,0.0,"USA, Hawaii, Honolulu",welter,141.91666666666666,139.78333333333333,11.25,16.0,2.0,0.0,9.0,4.0,male,171.25
-3842,,,,,,unknown,155.05208333333334,,,,0.0,0.0,0.0,0.0,,
-3843,,,,,,unknown,148.48076923076923,148.53846153846155,,,1.0,0.0,4.0,1.0,,
-3844,,,,,,unknown,133.8640350877193,134.18859649122808,,,0.0,2.0,8.0,26.0,,
-3845,Immanuwel Aleem,18.0,2.0,1.0,"USA, Virginia, Richmond",middle,162.21428571428572,,0.0,21.0,0.0,0.0,0.0,0.0,male,165.0
-3846,Mykal Fox,21.0,0.0,1.0,"USA, Maryland, Upper Marlboro",welter,140.73863636363637,,0.0,22.0,0.0,0.0,0.0,0.0,male,185.0
-3847,Alantez Fox,26.0,1.0,1.0,"USA, Maryland, Upper Marlboro",middle,157.9375,,0.0,28.0,0.0,0.0,0.0,0.0,male,240.0
-3848,Joe Jones,11.0,0.0,1.0,"USA, Virginia, Leesburg",cruiser,187.375,,0.0,12.0,0.0,0.0,0.0,0.0,male,85.0
-3849,Jesse Hart,26.0,0.0,2.0,"USA, Pennsylvania, Philadelphia",light heavy,168.04464285714286,,0.0,28.0,0.0,0.0,0.0,0.0,male,210.0
-3850,Gabriel Rosado,24.0,1.0,12.0,"USA, Pennsylvania, Philadelphia",middle,156.4671052631579,,0.0,37.0,0.0,0.0,0.0,0.0,male,-55.0
-3851,Henry Lundy,30.0,1.0,8.0,"USA, Pennsylvania, Philadelphia",light,136.9527027027027,,0.0,39.0,0.0,0.0,0.0,0.0,male,105.0
-3852,Bryant Jennings,24.0,0.0,4.0,"USA, Pennsylvania, Philadelphia",heavy,239.44444444444446,,0.0,28.0,0.0,0.0,0.0,0.0,male,140.0
-3853,Daniel Jacobs,35.0,0.0,3.0,"USA, New York, Brooklyn",middle,161.375,,0.0,38.0,0.0,0.0,0.0,0.0,male,275.0
-3854,Adam Kownacki,20.0,0.0,0.0,"USA, New York, Brooklyn",heavy,242.26315789473685,,0.0,20.0,0.0,0.0,0.0,0.0,male,200.0
-3855,Peter Quillin,34.0,1.0,2.0,"USA, New York, Brooklyn",super middle,161.91447368421052,,0.0,37.0,0.0,0.0,0.0,0.0,male,295.0
-3856,Ievgen Khytrov,19.0,0.0,2.0,"USA, New York, Brooklyn",super middle,161.13095238095238,,0.0,21.0,0.0,0.0,0.0,0.0,male,140.0
-3857,Mikkel LesPierre,21.0,1.0,1.0,"USA, New York, Brooklyn",super light,142.92391304347825,142.7391304347826,18.26086956521739,23.0,1.0,0.0,9.0,8.0,male,233.38586956521738
-3858,Joseph Williams,13.0,0.0,0.0,"USA, New York, Far Rockaway, Queens",cruiser,181.6346153846154,,0.0,13.0,0.0,0.0,0.0,0.0,male,130.0
-3859,Sean Monaghan,29.0,0.0,3.0,"USA, New York, Long Beach",light heavy,174.8515625,,0.0,32.0,0.0,0.0,0.0,0.0,male,215.0
-3860,Joe Smith Jr,24.0,0.0,3.0,"USA, New York, Long Island",light heavy,175.2403846153846,,0.0,27.0,0.0,0.0,0.0,0.0,male,165.0
-3861,Carlos Adames,18.0,0.0,0.0,"USA, New York, Washington Heights",super welter,149.81944444444446,,0.0,18.0,0.0,0.0,0.0,0.0,male,180.0
-3862,Jimmy Williams,16.0,2.0,3.0,"USA, Connecticut, New Haven",super welter,149.92045454545453,,0.0,21.0,0.0,0.0,0.0,0.0,male,95.0
-3863,Willie Nelson,27.0,1.0,3.0,"USA, Ohio, Youngstown",super welter,149.88709677419354,,0.0,31.0,0.0,0.0,0.0,0.0,male,200.0
-3864,Nick DeLomba,15.0,0.0,2.0,"USA, Rhode Island, Cranston",super light,143.69444444444446,,0.0,17.0,0.0,0.0,0.0,0.0,male,100.0
-3865,Irvin Gonzalez,12.0,0.0,2.0,"USA, Massachusetts, Worcester",super feather,127.48076923076923,128.73076923076923,4.285714285714286,14.0,2.0,0.0,7.0,3.0,male,74.28571428571429
-3866,Chris Traietti,27.0,0.0,4.0,"USA, Massachusetts, Quincy",cruiser,238.57692307692307,233.30769230769232,0.967741935483871,31.0,3.0,0.0,1.0,5.0,male,196.71774193548387
-3867,Domonique Dolton,22.0,1.0,3.0,"USA, Michigan, Detroit",welter,152.77884615384616,,0.0,26.0,0.0,0.0,0.0,0.0,male,150.0
-3868,Alexis Hloros,18.0,2.0,8.0,"USA, Michigan, Mount Clemens",middle,159.00862068965517,158.42241379310346,6.428571428571429,28.0,4.0,0.0,8.0,6.0,male,-3.571428571428571
-3869,Erickson Lubin,22.0,0.0,1.0,"USA, Florida, Orlando",super welter,153.2173913043478,,0.0,23.0,0.0,0.0,0.0,0.0,male,195.0
-3870,Deon Nicholson,11.0,0.0,0.0,"USA, Alabama, Tuscaloosa",cruiser,185.22727272727272,184.61363636363637,15.0,11.0,2.0,0.0,9.0,0.0,male,142.75
-3871,Nathaniel Gallimore,21.0,1.0,4.0,"USA, Illinois, Chicago",super welter,156.60576923076923,,0.0,26.0,0.0,0.0,0.0,0.0,male,115.0
-3872,Fredrick Lawson,28.0,0.0,2.0,"USA, Illinois, Chicago",welter,149.65833333333333,,0.0,30.0,0.0,0.0,0.0,0.0,male,230.0
-3873,Carlos Molina,30.0,2.0,11.0,"USA, Illinois, Chicago",super welter,149.86904761904762,,0.0,43.0,0.0,0.0,0.0,0.0,male,35.0
-3874,Luis Arias,18.0,1.0,2.0,"USA, Florida, Boca Raton",middle,162.875,,0.0,21.0,0.0,0.0,0.0,0.0,male,135.0
-3875,Jesus Martinez,26.0,0.0,10.0,"USA, Florida, Hollywood",super bantam,118.85227272727273,,0.0,36.0,0.0,0.0,0.0,0.0,male,10.0
-3876,Yordenis Ugas,24.0,0.0,4.0,"USA, Florida, Miami",welter,145.77777777777777,,0.0,28.0,0.0,0.0,0.0,0.0,male,140.0
-3877,Guillermo Rigondeaux,19.0,0.0,1.0,"USA, Florida, Miami",super bantam,122.70238095238095,,0.0,20.0,0.0,0.0,0.0,0.0,male,165.0
-3878,Sullivan Barrera,22.0,0.0,3.0,"USA, Florida, Miami",light heavy,180.55,,0.0,25.0,0.0,0.0,0.0,0.0,male,145.0
-3879,Yenifel Vicente,36.0,2.0,4.0,"USA, Florida, Miami",super bantam,124.57857142857142,,0.0,42.0,0.0,0.0,0.0,0.0,male,270.0
-3880,Hairon Socarras,22.0,3.0,1.0,"USA, Florida, Miami",feather,125.75,,0.0,26.0,0.0,0.0,0.0,0.0,male,210.0
-3881,Alexei Collado,25.0,0.0,2.0,"USA, Florida, Miami",super bantam,125.47222222222223,,0.0,27.0,0.0,0.0,0.0,0.0,male,200.0
-3882,Jamal James,26.0,0.0,1.0,"USA, Minnesota, Minneapolis",welter,146.46153846153845,,0.0,27.0,0.0,0.0,0.0,0.0,male,235.0
-3883,Caleb Truax,30.0,2.0,4.0,"USA, Minnesota, Saint Michael",super middle,165.11486486486487,,0.0,36.0,0.0,0.0,0.0,0.0,male,210.0
-3884,Charles Hatley,28.0,1.0,2.0,"USA, Texas, Frisco",super welter,153.2016129032258,,0.0,31.0,0.0,0.0,0.0,0.0,male,235.0
-3885,Maurice Hooker,26.0,3.0,1.0,"USA, Texas, Dallas",super light,140.78333333333333,,0.0,30.0,0.0,0.0,0.0,0.0,male,250.0
-3886,Rob Brant,25.0,0.0,2.0,"USA, Texas, Dallas",middle,159.48076923076923,160.26923076923077,11.11111111111111,27.0,8.0,0.0,9.0,7.0,male,211.11111111111111
-3887,Gregory Corbin,15.0,0.0,2.0,"USA, Texas, Dallas",heavy,271.4166666666667,245.66666666666666,16.764705882352942,17.0,1.0,0.0,7.0,6.0,male,116.76470588235294
-3888,Marquis Taylor,11.0,1.0,1.0,"USA, Texas, Houston",welter,146.35714285714286,,0.0,13.0,0.0,0.0,0.0,0.0,male,90.0
-3889,Jerrico Walton,15.0,0.0,0.0,"USA, Texas, Houston",welter,150.078125,148.53125,15.0,15.0,1.0,0.0,5.0,9.0,male,165.0
-3890,Gabriel Smith,9.0,0.0,1.0,"USA, Texas, Houston",light,136.54545454545453,136.75,12.0,10.0,3.0,0.0,1.0,5.0,male,77.0
-3891,Hector Tanajara,18.0,0.0,0.0,"USA, Texas, San Antonio",light,132.22222222222223,132.90277777777777,12.5,18.0,4.0,0.0,1.0,11.0,male,269.849593495935
-3892,Omar Figueroa Jr,28.0,1.0,1.0,"USA, Texas, Weslaco",welter,137.875,,0.0,30.0,0.0,0.0,0.0,0.0,male,260.0
-3893,Roberto Garcia,42.0,0.0,4.0,"USA, Texas, Weslaco",middle,152.05128205128204,,0.0,46.0,0.0,0.0,0.0,0.0,male,320.0
-3894,Austin Trout,31.0,1.0,5.0,"USA, New Mexico, Las Cruces",super welter,155.84722222222223,,0.0,37.0,0.0,0.0,0.0,0.0,male,190.0
-3895,Carlos Castro,24.0,0.0,0.0,"USA, Arizona, Phoenix",super bantam,123.54166666666667,,0.0,24.0,0.0,0.0,0.0,0.0,male,240.0
-3896,Alexis Santiago,21.0,1.0,7.0,"USA, Arizona, Phoenix",super bantam,120.32407407407408,,0.0,29.0,0.0,0.0,0.0,0.0,male,40.0
-3897,Carlos Takam,37.0,1.0,5.0,"USA, Nevada, Henderson",heavy,236.73611111111111,,0.0,43.0,0.0,0.0,0.0,0.0,male,250.0
-3898,Jessie Vargas,29.0,2.0,2.0,"USA, Nevada, Las Vegas",super welter,143.65151515151516,,0.0,33.0,0.0,0.0,0.0,0.0,male,250.0
-3899,Ishe Smith,29.0,0.0,11.0,"USA, Nevada, Las Vegas",super welter,153.56875,,0.0,40.0,0.0,0.0,0.0,0.0,male,15.0
-3900,Ronald Gavril,19.0,0.0,3.0,"USA, Nevada, Las Vegas",super middle,167.07142857142858,,0.0,22.0,0.0,0.0,0.0,0.0,male,115.0
-3901,Lorissa Rivas Wallace,9.0,0.0,3.0,"USA, Nevada, Las Vegas",heavy,163.05,162.9,3.75,12.0,1.0,0.0,7.0,1.0,female,18.75
-3902,Konstantin Ponomarev,34.0,0.0,2.0,"USA, California, Big Bear",super welter,148.19444444444446,,0.0,36.0,0.0,0.0,0.0,0.0,male,290.0
-3903,Josesito Lopez,37.0,0.0,8.0,"USA, California, Riverside",welter,138.7336956521739,,0.0,45.0,0.0,0.0,0.0,0.0,male,170.0
-3904,Mauricio Herrera,24.0,0.0,9.0,"USA, California, Riverside",welter,143.0530303030303,,0.0,33.0,0.0,0.0,0.0,0.0,male,15.0
-3905,Chris Arreola,38.0,1.0,6.0,"USA, California, Escondido",heavy,237.10638297872342,,0.0,45.0,0.0,0.0,0.0,0.0,male,235.0
-3906,Mercito Gesta,32.0,2.0,3.0,"USA, California, San Diego",super light,129.19078947368422,,0.0,37.0,0.0,0.0,0.0,0.0,male,255.0
-3907,John Molina Jr,30.0,0.0,9.0,"USA, California, Covina",welter,136.78947368421052,,0.0,39.0,0.0,0.0,0.0,0.0,male,75.0
-3908,Oscar Valdez,26.0,0.0,0.0,"USA, California, West Covina",feather,127.17307692307692,,0.0,26.0,0.0,0.0,0.0,0.0,male,260.0
-3909,Joel Diaz Jr,24.0,0.0,2.0,"USA, California, Palmdale",super light,132.79,,0.0,26.0,0.0,0.0,0.0,0.0,male,190.0
-3910,Ronny Rios,31.0,0.0,3.0,"USA, California, Santa Ana",super bantam,125.41911764705883,,0.0,34.0,0.0,0.0,0.0,0.0,male,235.0
-3911,Joseph Diaz,30.0,0.0,1.0,"USA, California, Downey",super feather,124.48387096774194,,0.0,31.0,0.0,0.0,0.0,0.0,male,275.0
-3912,Azat Hovhannisyan,18.0,0.0,3.0,"USA, California, Los Angeles",super bantam,123.1625,,0.0,21.0,0.0,0.0,0.0,0.0,male,105.0
-3913,Vyacheslav Shabranskyy,21.0,0.0,2.0,"USA, California, Los Angeles",light heavy,178.2826086956522,,0.0,23.0,0.0,0.0,0.0,0.0,male,160.0
-3914,Ablaikhan Khussainov,10.0,0.0,0.0,"USA, California, Los Angeles",light,134.55,,0.0,10.0,0.0,0.0,0.0,0.0,male,100.0
-3915,Francisco Ochoa,16.0,0.0,0.0,"USA, California, Los Angeles",super feather,132.4375,,0.0,16.0,0.0,0.0,0.0,0.0,male,160.0
-3916,Charles Martin,27.0,1.0,2.0,"USA, California, Carson",heavy,242.74137931034483,,0.0,30.0,0.0,0.0,0.0,0.0,male,225.0
-3917,Terrell Gausha,21.0,1.0,1.0,"USA, California, Encino",super welter,158.27173913043478,,0.0,23.0,0.0,0.0,0.0,0.0,male,190.0
-3918,Chris van Heerden,28.0,1.0,2.0,"USA, California, Santa Monica",welter,146.17241379310346,,0.0,31.0,0.0,0.0,0.0,0.0,male,235.0
-3919,Adrian Granados,20.0,2.0,8.0,"USA, California, Woodland Hills",welter,142.63333333333333,,0.0,30.0,0.0,0.0,0.0,0.0,male,10.0
-3920,Brandon Rios,35.0,1.0,5.0,"USA, California, Oxnard",super welter,136.3231707317073,,0.0,41.0,0.0,0.0,0.0,0.0,male,230.0
-3921,Hugo Centeno Jr,27.0,0.0,3.0,"USA, California, Oxnard",middle,154.7983870967742,,0.0,30.0,0.0,0.0,0.0,0.0,male,195.0
-3922,Francisco Santana,25.0,1.0,7.0,"USA, California, Santa Barbara",welter,150.2578125,,0.0,33.0,0.0,0.0,0.0,0.0,male,80.0
-3923,Jobert Alvarez,19.0,2.0,2.0,"USA, Washington, Renton",fly,110.65217391304348,,0.0,23.0,0.0,0.0,0.0,0.0,male,150.0
-3924,Andy Vences,23.0,1.0,1.0,"USA, California, San Jose",super feather,130.93,,0.0,25.0,0.0,0.0,0.0,0.0,male,210.0
-3925,Gerald Washington,20.0,1.0,3.0,"USA, California, Vallejo",heavy,246.51041666666666,,0.0,24.0,0.0,0.0,0.0,0.0,male,130.0
-3926,,,,,,unknown,,,,,,,,,,
-3927,,,,,,unknown,,,,,,,,,,
-3928,,,,,,unknown,,,,,,,,,,
-3929,,,,,,unknown,,,,,,,,,,
-3930,,,,,,unknown,,,,,,,,,,
-3931,,,,,,unknown,,,,,,,,,,
-3932,,,,,,unknown,,,,,,,,,,
-3933,,,,,,unknown,,,,,,,,,,
-3934,,,,,,unknown,,,,,,,,,,
-3935,,,,,,unknown,,,,,,,,,,
-3936,,,,,,unknown,,,,,,,,,,
-3937,,,,,,unknown,,,,,,,,,,
-3938,,,,,,unknown,,,,,,,,,,
-3939,,,,,,unknown,,,,,,,,,,
-3940,,,,,,unknown,,,,,,,,,,
-3941,,,,,,unknown,,,,,,,,,,
-3942,,,,,,unknown,,,,,,,,,,
-3943,,,,,,unknown,,,,,,,,,,
-3944,,,,,,unknown,,,,,,,,,,
-3945,,,,,,unknown,,,,,,,,,,
-3946,,,,,,unknown,,,,,,,,,,
-3947,,,,,,unknown,,,,,,,,,,
-3948,,,,,,unknown,,,,,,,,,,
-3949,,,,,,unknown,,,,,,,,,,
-3950,,,,,,unknown,,,,,,,,,,
+3842,Tyson Fury,29.0,1.0,0.0,"UK, Manchester Lancashire",heavy,234.49166666666667,,0.0,30.0,0.0,0.0,0.0,0.0,male,295.0
+3843,Alexander Povetkin,35.0,0.0,2.0,"Russia, Chekhov",heavy,236.4189189189189,,0.0,37.0,0.0,0.0,0.0,0.0,male,300.0
+3844,Oleksandr Usyk,17.0,0.0,0.0,"Ukrain, Kiev",heavy,202.1764705882353,,0.0,17.0,0.0,0.0,0.0,0.0,male,170.0
+3845,Dillian Whyte,26.0,0.0,1.0,"UK, London",heavy,233.59259259259258,,0.0,27.0,0.0,0.0,0.0,0.0,male,235.0
+3846,Kubrat Pulev,28.0,0.0,1.0,"Bulgaria, Sofia",heavy,246.57758620689654,,0.0,29.0,0.0,0.0,0.0,0.0,male,255.0
+3847,Joseph Parker,26.0,0.0,2.0,"New Zealand, South Auckland",heavy,247.66071428571428,,0.0,28.0,0.0,0.0,0.0,0.0,male,210.0
+3848,Christian Hammer,24.0,0.0,6.0,"Germany, Hamburg",heavy,250.5648148148148,242.10714285714286,8.5,30.0,4.0,1.0,8.0,9.0,male,139.6159420289855
+3849,Joe Joyce,10.0,0.0,0.0,"UK, London",heavy,251.25,,0.0,10.0,0.0,0.0,0.0,0.0,male,100.0
+3850,Evgeny Romanov,14.0,0.0,0.0,"Russia, Volgograd",heavy,221.32142857142858,239.10714285714286,8.571428571428571,14.0,3.0,0.0,7.0,4.0,male,148.57142857142858
+3851,Hughie Fury,23.0,0.0,3.0,"UK, Stockport",heavy,237.33,,0.0,26.0,0.0,0.0,0.0,0.0,male,155.0
+3852,Marco Huck,41.0,1.0,5.0,"Germany, Berlin",heavy,199.7111111111111,,0.0,47.0,0.0,0.0,0.0,0.0,male,290.0
+3853,Johann Duhaupas,38.0,0.0,5.0,"France, Abbeville",heavy,235.15853658536585,,0.0,43.0,0.0,0.0,0.0,0.0,male,255.0
+3854,Simon Kean,17.0,0.0,1.0,"Canada, Trois-Rivieres",heavy,239.72222222222223,,0.0,18.0,0.0,0.0,0.0,0.0,male,145.0
+3855,Petar Milas,15.0,0.0,0.0,"Croatia, Split",heavy,208.82142857142858,214.05357142857142,7.0,15.0,3.0,0.0,8.0,3.0,male,161.33333333333334
+3856,Artur Szpilka,23.0,0.0,4.0,"Poland, Wieliczka",heavy,232.43269230769232,,0.0,27.0,0.0,0.0,0.0,0.0,male,130.0
+3857,Robert Helenius,29.0,0.0,3.0,"Finald, Stockholm",heavy,236.45833333333334,,0.0,32.0,0.0,0.0,0.0,0.0,male,215.0
+3858,Martin Bakole,15.0,0.0,1.0,DRC,heavy,253.23076923076923,236.17857142857142,21.5625,16.0,2.0,0.0,10.0,0.0,male,195.89583333333331
+3859,Lucas Browne,29.0,0.0,2.0,"Australia, Sydney",heavy,253.7016129032258,,0.0,31.0,0.0,0.0,0.0,0.0,male,240.0
+3860,Erkan Teper,20.0,0.0,3.0,"Germany, Ahlen",heavy,245.52272727272728,243.10227272727272,3.9130434782608696,23.0,4.0,1.0,7.0,3.0,male,179.91304347826087
+3861,Tony Yoka,7.0,0.0,0.0,"France, Paris",heavy,249.60714285714286,,0.0,7.0,0.0,0.0,0.0,0.0,male,70.0
+3862,Ali Eren Demirezen,11.0,0.0,1.0,"Turkey, Samsun",heavy,246.83333333333334,247.875,2.5,12.0,0.0,0.0,7.0,0.0,male,87.5
+3863,Mariusz Wach,35.0,0.0,5.0,"Poland, Krakow",heavy,242.23684210526315,,0.0,40.0,0.0,0.0,0.0,0.0,male,225.0
+3864,Joey Abell,35.0,0.0,10.0,"USA, Neenah",heavy,244.68617021276594,240.61666666666667,14.666666666666666,45.0,12.0,0.0,18.0,1.0,male,114.66666666666667
+3865,,,,,,unknown,155.05208333333334,,,,0.0,0.0,0.0,0.0,,
+3866,,,,,,unknown,148.48076923076923,148.53846153846155,,,1.0,0.0,4.0,1.0,,
+3867,,,,,,unknown,133.8640350877193,134.18859649122808,,,0.0,2.0,8.0,26.0,,
+3868,,,,,,unknown,,,,,0.0,0.0,0.0,0.0,,
+3869,,,,,,unknown,147.77272727272728,146.89583333333334,,,0.0,0.0,3.0,2.0,,
+3870,,,,,,unknown,241.5568181818182,,,,0.0,0.0,0.0,0.0,,
+3871,,,,,,unknown,223.25,250.625,,,1.0,0.0,3.0,2.0,,
+3872,,,,,,unknown,252.265625,247.04166666666666,,,3.0,0.0,8.0,0.0,,
+3873,,,,,,unknown,239.5,,,,0.0,0.0,0.0,0.0,,
+3874,,,,,,unknown,244.60714285714286,,,,0.0,0.0,0.0,0.0,,
+3875,,,,,,unknown,239.23333333333332,,,,0.0,0.0,0.0,0.0,,
+3876,,,,,,unknown,229.8125,230.25,,,3.0,0.0,4.0,0.0,,
