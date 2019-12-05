@@ -6,3 +6,5 @@ ii.) an interactive dashboard with a custom boxer rank by division, comparisons 
 
 High Level Blog Post: 
 https://hackernoon.com/d-nr1o32po (explaining data extraction, cleanup and building the interactive dashboard)
+
+Heroku Visualization App: https://boxingvisualisationdashboard.herokuapp.com/
