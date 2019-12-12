@@ -23,4 +23,9 @@ fighters['Avg Total punches landed against'] = punches.groupby('fighter1')['punc
 #change order of names
 fighters['fighter1'] = fighters['fighter1'].str.split().apply(lambda x: ' '.join(x[::-1]))
 fighters2 = fighters.merge(topten[['name','wins','draws','losses','division','average_weight','sex']],left_on='fighter1',right_on='name')
+fighters2.drop(columns=['fighter1'],inplace=True)
+#round off some nums
+fighters2[['Jab accuracy','Power punch accuracy','Total punch accuracy','% of Power punches landed against','% of Jabs landed against','% of Total punches landed against','average_weight']] = round(fighters2[['Jab accuracy','Power punch accuracy','Total punch accuracy','% of Power punches landed against','% of Jabs landed against','% of Total punches landed against','average_weight']],2)
+#reset index and change order
+fighters2 = fighters2.set_index(['name','wins','losses','draws','average_weight','sex','division']).reset_index()
 fighters2.to_csv('C://Users//User//Documents//GitHub//SpringboardCapstoneBoxingPredictionWebApp//boxingdata//punchingstats.csv')

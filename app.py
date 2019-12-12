@@ -1,6 +1,8 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+from dash.dependencies import Input,Output
+import dash_table
 import plotly.graph_objs as go
 import pandas as pd
 import os
@@ -9,14 +11,19 @@ path = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredic
 path_two = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/topten.csv'
 path_three = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/df.csv'
 path_four = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/fightoutcomes.csv'
+path_five = 'https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/punchingstats.csv'
 data = pd.read_csv(path)
 topten = pd.read_csv(path_two)
 df = pd.read_csv(path_three)
 fight_outcomes = pd.read_csv(path_four)
+punch_stats = pd.read_csv(path_five)
 WEIGHT_CLASS = data['division'].unique()
 GENDER = data['sex'].unique()
 app = dash.Dash()
+def getData():
+    return punch_stats.to_dict('records')
 server = app.server
+#punching stats datatable
 colors = {
     'background': '##111111',
     'text': '#FFFFFF'
@@ -59,7 +66,27 @@ app.layout = html.Div(children=[
     ),
     dcc.Graph(
         id='age_groups',
-    )
+    ),
+    html.Div([
+        dash_table.DataTable(
+            id='punchstats',
+            columns=[{'name': i, 'id': i} for i in sorted(punch_stats.columns)],
+            data = punch_stats.to_dict('records'),
+            filter_action ='native',
+            page_current=0,
+            page_size=5,
+            page_action='native',
+            sort_action='native',
+            column_selectable="single",
+            sort_mode='multi',
+            style_table={'overflowX':'scroll',
+                         'maxHeight':'300px'},
+            style_header={'backgroundColor':'rgb(30, 30, 30)'},
+            style_cell={'backgroundColor':'rgb(50,50,50)',
+                        'color':'white'},
+            sort_by=[]),
+    ]),
+    html.Div(id='filteringaction')
 ])
 #creating function for slideshow
 @app.callback(dash.dependencies.Output('image','children'),
@@ -117,7 +144,6 @@ def update_heatmap(weight_class,gender):
         weight_class = WEIGHT_CLASS
     if gender is None or gender == []:
         gender = GENDER
-
     stance_compare = df[(df['division'].isin(weight_class))]
     stance_compare = stance_compare[(stance_compare['sex'].isin(gender))]
     return {
@@ -166,6 +192,17 @@ def update_heatmap(weight_class,gender):
             paper_bgcolor='black',
         )
     }
+#punch states data table
+@app.callback(
+    dash.dependencies.Output('filteringaction','children'),
+    [dash.dependencies.Input('punchstats','data')])
+def update_punchstats(rows):
+    if rows is None:
+        df_frame = punch_stats
+    else:
+        df_frame = pd.DataFrame(rows)
+    return html.Div()
+#age group heatmap
 @app.callback(
     dash.dependencies.Output('age_groups','figure'),
     [dash.dependencies.Input('weight_class','value'),
