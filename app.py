@@ -17,6 +17,8 @@ topten = pd.read_csv(path_two)
 df = pd.read_csv(path_three)
 fight_outcomes = pd.read_csv(path_four)
 punch_stats = pd.read_csv(path_five)
+punch_stats = punch_stats.drop(columns=['Unnamed: 0'])
+punch_stats = punch_stats[['name','sex','division','wins','draws','losses','average_weight','Jab accuracy','Power punch accuracy','Total punch accuracy','Avg Total punches landed','% of Total punches landed against','Avg Total punches landed against']]
 WEIGHT_CLASS = data['division'].unique()
 GENDER = data['sex'].unique()
 app = dash.Dash()
@@ -70,7 +72,19 @@ app.layout = html.Div(children=[
     html.Div([
         dash_table.DataTable(
             id='punchstats',
-            columns=[{'name': i, 'id': i} for i in sorted(punch_stats.columns)],
+            columns= [{'name': 'name', 'id': 'name'},
+                     {'name':'sex','id':'sex'},
+                     {'name':'division','id':'division'},
+                     {'name':'wins','id':'wins'},
+                     {'name':'draws','id':'draws'},
+                     {'name':'losses','id':'losses'},
+                     {'name':'average_weight','id':'average_weight'},
+                     {'name':'Jab accuracy','id':'Jab accuracy'},
+                     {'name':'Power punch accuracy','id':'Power punch accuracy'},
+                     {'name':'Total punch accuracy','id':'Total punch accuracy'},
+                     {'name':'Avg Total punches landed','id':'Avg Total punches landed'},
+                     {'name':'% of Total punches landed against','id':'% of Total punches landed against'},
+                     {'name':'Avg Total punches landed against','id':'Avg Total punches landed against'}],
             data = punch_stats.to_dict('records'),
             filter_action ='native',
             page_current=0,
@@ -81,9 +95,9 @@ app.layout = html.Div(children=[
             sort_mode='multi',
             style_table={'overflowX':'scroll',
                          'maxHeight':'300px'},
-            style_header={'backgroundColor':'rgb(30, 30, 30)'},
-            style_cell={'backgroundColor':'rgb(50,50,50)',
-                        'color':'white'},
+            style_header={'backgroundColor':'rgb(30,30,30)'},
+            style_cell={'backgroundColor':'rgb(250,250,250)',
+                        'color':'grey'},
             sort_by=[]),
     ]),
     html.Div(id='filteringaction')
