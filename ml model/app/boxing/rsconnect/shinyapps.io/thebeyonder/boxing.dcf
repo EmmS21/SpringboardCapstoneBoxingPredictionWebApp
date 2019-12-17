@@ -1,0 +1,12 @@
+name: boxing
+title: boxing
+username:
+account: thebeyonder
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1600874
+bundleId: 2668888
+url: https://thebeyonder.shinyapps.io/boxing/
+when: 1576397375.44436
+asMultiple: FALSE
+asStatic: FALSE

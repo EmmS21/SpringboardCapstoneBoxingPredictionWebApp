@@ -1,0 +1,12 @@
+name: emmboxing
+title: emmboxing
+username:
+account: thebeyonder
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1599071
+bundleId: 2667545
+url: https://thebeyonder.shinyapps.io/emmboxing/
+when: 1576337523.29198
+asMultiple: FALSE
+asStatic: FALSE

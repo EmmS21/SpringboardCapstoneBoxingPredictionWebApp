@@ -1,0 +1,13 @@
+name: boxingapp2
+title: boxingapp2
+username:
+account: thebeyonder
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1600930
+bundleId: 2671548
+url: https://thebeyonder.shinyapps.io/boxingapp2/
+when: 1576496649.48151
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: boxingdata2.rds|boxingdata3.rds|boxingdatafull.rds|boxingdatafull2.rds|boxingdatafull5.rds|catmodel.pkl|mayweather2.png|output.RDS

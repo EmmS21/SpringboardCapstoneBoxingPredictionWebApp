@@ -1,0 +1,12 @@
+name: runekingthor
+title: runekingthor
+username:
+account: thebeyonder
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1599395
+bundleId: 2667570
+url: https://thebeyonder.shinyapps.io/runekingthor/
+when: 1576338563.60002
+asMultiple: FALSE
+asStatic: FALSE
