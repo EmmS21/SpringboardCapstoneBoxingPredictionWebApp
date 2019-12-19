@@ -1,14 +1,11 @@
-# install.packages("remotes")
-# remotes::install_github("rstudio/reticulate")
 library(shiny)
 library(shinyWidgets)
 library(tidyverse)
 library(reticulate)
 library(DT)
 library(data.table)
-# py_install("pandas")
-virtualenv_create(envname = "python_environment")
-virtualenv_install("python_environment", packages =c("pandas","catboost"))
+virtualenv_create(envname = "python_environment",python="python3")
+virtualenv_install("python_environment", packages =c('pandas','catboost'))
 use_virtualenv("python_environment",required = TRUE)
 # boxing = read.csv(file="https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/visuals.csv",header=TRUE)
 boxing <- readRDS('fullboxingdataset.RDS')
@@ -19,8 +16,7 @@ ui <- function(){
   addResourcePath("www","www")
   tagList(
     shinyUI(
-      fluidPage(tags$head(includeScript("google-analytics.js")),
-        setBackgroundImage(src = "www/mayweather2.png"),
+      fluidPage(setBackgroundImage(src = "www/mayweather2.png"),
                 headerPanel(fluidRow(
                   column(offset = 5, width=5,
                          h2("Boxing Prediction App")),
@@ -62,6 +58,7 @@ server <- function(input,output){
   output$Opponent <- renderUI({
     req(input$dropdown)
     df <- boxing %>% filter(division %in% input$dropdown)
+    df <- df %>% filter(!name %in% input$names)
     selectInput("names2","Opponent",choices = df$name)
   })
   output$opppic <- renderUI({
