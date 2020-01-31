@@ -1,6 +1,5 @@
 library(shinyWidgets)
 library(tidyverse)
-Sys.setenv(RETICULATE_PYTHON = "~/.virtualenvs/python35_env/bin/python")
 library(reticulate)
 library(DT)
 library(data.table)
