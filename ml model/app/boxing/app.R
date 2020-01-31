@@ -5,7 +5,7 @@ library(DT)
 library(data.table)
 reticulate::virtualenv_create(envname = "python_environment", python= "python3")
 reticulate::virtualenv_install("python_environment", packages =c('pandas','catboost'))
-reticulate::use_virtualenv("python_environment",required = TRUE)
+# reticulate::use_virtualenv("python_environment",required = TRUE)
 # boxing = read.csv(file="https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/visuals.csv",header=TRUE)
 boxing <- readRDS('fullboxingdataset.RDS')
 #reading model
