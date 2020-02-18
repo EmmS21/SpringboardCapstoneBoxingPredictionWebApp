@@ -4,11 +4,11 @@ library(tidyverse)
 library(reticulate)
 library(DT)
 library(data.table)
-virtualenv_create(envname = "python_environment")
-virtualenv_install("python_environment", packages =c('pandas','catboost'))
-use_virtualenv("python_environment",required = TRUE)
-# boxing = read.csv(file="https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/visuals.csv",header=TRUE)
-boxing <- readRDS('fullboxingdataset.RDS')
+#virtualenv_create(envname = "python_environment")
+#virtualenv_install("python_environment", packages =c('pandas','catboost'))
+#use_virtualenv("python_environment",required = TRUE)
+boxing = read.csv(file="https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/720ddcf4e7ba0d9962499dd3026e304bacd09fb8/boxingdata/visuals.csv",header=TRUE)
+#boxing <- readRDS('fullboxingdataset.RDS')
 #reading model
 p <- import("pandas")
 cat_model <- p$read_pickle("catmodelsummary.pkl")
@@ -42,7 +42,7 @@ ui <- function(){
                 hr(),
                 column(offset=3,width=6,
                        DTOutput("predictions"))
-      )
+      ) 
     )
   )}
 
@@ -64,10 +64,10 @@ server <- function(input,output){
   output$opppic <- renderUI({
     tags$img(src=paste("www/",boxing[boxing$name == input$names2, "global_id"],".jpg",sep=""),width=150)
   })
-
-
+  
+  
   observeEvent(input$goButton, {
-
+    
     output$predictions <- renderDataTable({
       df1 <- boxing %>% filter(name %in% input$names)
       df2 <- boxing %>% filter(name %in% input$names2)
@@ -90,3 +90,5 @@ server <- function(input,output){
   })
 }
 shinyApp(ui = ui, server = server)
+
+
