@@ -42,7 +42,7 @@ ui <- function(){
                 hr(),
                 column(offset=3,width=6,
                        DTOutput("predictions"))
-      ) 
+      )
     )
   )}
 
@@ -64,10 +64,10 @@ server <- function(input,output){
   output$opppic <- renderUI({
     tags$img(src=paste("www/",boxing[boxing$name == input$names2, "global_id"],".jpg",sep=""),width=150)
   })
-  
-  
+
+
   observeEvent(input$goButton, {
-    
+
     output$predictions <- renderDataTable({
       df1 <- boxing %>% filter(name %in% input$names)
       df2 <- boxing %>% filter(name %in% input$names2)
@@ -90,5 +90,3 @@ server <- function(input,output){
   })
 }
 shinyApp(ui = ui, server = server)
-
-
