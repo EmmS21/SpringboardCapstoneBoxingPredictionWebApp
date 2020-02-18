@@ -5,8 +5,8 @@ account: thebeyonder
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1600930
-bundleId: 2680455
+bundleId: 2683723
 url: https://thebeyonder.shinyapps.io/boxingapp2/
-when: 1576746636.44739
+when: 1576859695.48763
 asMultiple: FALSE
 asStatic: FALSE

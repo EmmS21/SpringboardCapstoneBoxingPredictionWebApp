@@ -5,8 +5,8 @@ account: thebeyonder
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1601013
-bundleId: 2669360
+bundleId: 2773478
 url: https://thebeyonder.shinyapps.io/boxingpredict/
-when: 1576424201.37331
+when: 1580800458.97301
 asMultiple: FALSE
 asStatic: FALSE

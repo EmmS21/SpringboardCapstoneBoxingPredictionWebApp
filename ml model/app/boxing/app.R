@@ -4,7 +4,7 @@ library(tidyverse)
 library(reticulate)
 library(DT)
 library(data.table)
-virtualenv_create(envname = "python_environment",python="python3")
+virtualenv_create(envname = "python_environment")
 virtualenv_install("python_environment", packages =c('pandas','catboost'))
 use_virtualenv("python_environment",required = TRUE)
 # boxing = read.csv(file="https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/visuals.csv",header=TRUE)
@@ -21,7 +21,7 @@ ui <- function(){
                   column(offset = 5, width=5,
                          h2("Boxing Prediction App")),
                   column(offset = 3, width = 7,
-                         h5("Welcome to Emmanuel's boxing prediction app. Using this app you can get the probability of a fight ending in a given way. The model used to derive these predictions uses data extracted before the 23rd of November 2019. Any updates to the data will be shown here. Without further ado, let's get ready to rumble!"))
+                         h5("Welcome to Emmanuel's boxing prediction app. Using this app you can get the probability of a fight ending in a given way. The model used to derive these predictions uses data extracted before the 23rd of November 2019. Feel free to send through any feedback/suggestions to emmanuelsibanda21@gmail.com. Any updates to the data will be shown here. Without further ado, let's get ready to rumble!"))
                 )),
                 fluidRow(column(offset = 5, width = 2,align="center",
                                 titlePanel(h5(selectInput("dropdown","Select Boxer Weights",choices=unique(boxing$division)))))),
@@ -38,7 +38,7 @@ ui <- function(){
                                           )))),
                 hr(),
                 column(offset=5,width = 8,
-                       actionButton("goButton","Start Predictions")),
+                       actionBttn("goButton","Start Predictions")),
                 hr(),
                 column(offset=3,width=6,
                        DTOutput("predictions"))
