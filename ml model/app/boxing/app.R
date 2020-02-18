@@ -5,11 +5,19 @@ Sys.setenv(RETICULATE_PYTHON = "~/.virtualenvs/python35_env/bin/python")
 library(reticulate)
 library(DT)
 library(data.table)
+<<<<<<< HEAD
 #virtualenv_create(envname = "python_environment")
 #virtualenv_install("python_environment", packages =c('pandas','catboost'))
 #use_virtualenv("python_environment",required = TRUE)
 boxing = read.csv(file="https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/720ddcf4e7ba0d9962499dd3026e304bacd09fb8/boxingdata/visuals.csv",header=TRUE)
 #boxing <- readRDS('fullboxingdataset.RDS')
+=======
+virtualenv_create(envname = "python_environment",python="python3")
+virtualenv_install("python_environment", packages =c('pandas','catboost'))
+use_virtualenv("python_environment",required = TRUE)
+# boxing = read.csv(file="https://raw.githubusercontent.com/EmmS21/SpringboardCapstoneBoxingPredictionWebApp/master/boxingdata/visuals.csv",header=TRUE)
+boxing <- readRDS('fullboxingdataset.RDS')
+>>>>>>> parent of eaa4487... debugging deployment error
 #reading model
 p <- import("pandas")
 cat_model <- p$read_pickle("catmodelsummary.pkl")
